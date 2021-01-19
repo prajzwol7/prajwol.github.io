@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#gold{
+    color: #FFA316;
+}
+.i{
+    font-style: italic;
+}
+.main{
+    color: white;
+    padding-top: 200px;
+    height: 800px;
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+    /* background: url("images/space.jpg"); */
+    /* background-image:url("images/space3.jpg"); */
+    background-position-x: 50%;
+    background-position: center;
+    border-bottom:  1px;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.main h1{
+    font-size: 50px;
+    color: rgb(151, 255, 255);
+    padding-top: 5.5vh;
+}
+.main h2{
+    padding-top: 15px;
+    font-size: 28px;
+}
+.infoLinks{
+    display: inline-flex;
+    list-style: none;
+    border-color: white;
+    justify-content: center;
+}   
+.infoLinks li{
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition-duration: 400ms;
+}
+.infoLinks li:hover{
+    transform: translateY(-20px);
+}
+.infoLinks a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    padding-top: 19px;
+    margin-top: -20px;
+}
